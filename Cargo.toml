@@ -3,6 +3,8 @@ name = "uiuifree-test"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+authors = ["uiuifree"]
+description = "パッケージ公開検証"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

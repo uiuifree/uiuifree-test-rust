@@ -1,6 +1,6 @@
 # release.toml （ルート直下）
 # ---------------------------------
-workspace           = true          # ワークスペース全体を対象
+# workspace           = true          # ワークスペース全体を対象
 consolidate-commits = true          # 1 コミットにまとめる
 push-remote         = "origin"
 

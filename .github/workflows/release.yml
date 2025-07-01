@@ -22,8 +22,9 @@ jobs:
         with: { fetch-depth: 0 }
       - uses: dtolnay/rust-toolchain@stable
       # ★ pre-built バイナリを DL して ~/.cargo/bin へ展開
-      - name: Install cargo-release
-        uses: taiki-e/install-action@cargo-release      # v0.25.* など指定も可 :contentReference[oaicite:0]{index=0}
+      - uses: taiki-e/install-action@v2      # アクション自体のバージョン
+        with:
+          tool: cargo-release                # インストールしたいツール名
       - name: cargo-release
         # 手元で動かすのと同じ ― 自動で version bump → tag → push → publish
         run: |

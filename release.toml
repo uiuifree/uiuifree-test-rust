@@ -14,6 +14,6 @@ pre-release-commit-message  = "chore(release): {{crate_name}} v{{version}}"
 #]
 
 # crates.io への公開と同時に GitHub Release を作成
-post-release-hook   = [
-    "gh release create v{{version}} --notes-file CHANGELOG.md"
-]
+#post-release-hook   = [
+#    "gh release create v{{version}} --notes-file CHANGELOG.md"
+#]
